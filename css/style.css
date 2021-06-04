@@ -1,8 +1,39 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+/** header **/
+header {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 4em;
+    margin-bottom: 1px;
+    color:#EA588DFF;
+}
+
+#headerp {
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+article:first-child {
+    background-color:lightsalmon;
+}
+
+h2 {
+    color: #EA588DFF;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 80px;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 30px;
+}
